@@ -4,7 +4,7 @@ Olá! Me chamo Raí Menezes e este é mais um dos meus primeiros projetos com Py
 criar planilhas do Excel para lojas especificas com os dados de funcionários, este programa me permitiu automatizar essa área completamente, precisando apenas
 das fichas dos funcionários (como a encontrada na pasta _data_)
 
-O código foi feito para funcionar especificamente com os arquivos que estão na pasta _data_. Porém, é simples adaptar isso para funcionar com outros diretórios — basta alterar o caminho utilizado na função de seleção de arquivos, que está logo nas primeiras linhas do código (`filedialog.askopenfilename(...)`), não esquecendo também de alterar os campos, seja na função que cria a planilha do excel como na que puxa os dados do PDF.
+O código foi feito para funcionar especificamente com arquivos como os que estão na pasta _data_. Porém, é simples adaptar isso para funcionar com outros diretórios — basta alterar os campos que o programa procura ao ler o PDF (_começa na linha 33_), não esquecendo também de alterar os campos, seja na função que cria a planilha do excel como na que puxa os dados do PDF.
 
 ---
 
